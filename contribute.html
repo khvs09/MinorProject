@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Heritage - Contribute</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">Hidden Heritage</div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="contribute.html">Contribute</a>
+        <a href="login.html">Login/Register</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="hamburger-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="dropdown-menu">
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="contribute.html">Contribute</a>
+        <a href="login.html">Login/Register</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+</nav>
+    <!-- Hero Section -->
+    <section class="contribute-hero">
+        <div class="hero-content">
+            <h1>Contribute to Hidden Heritage</h1>
+            <p class="tagline">Every monument has a story, every tradition holds wisdom, and every place carries history. Share your knowledge, stories, and discoveries to help preserve India’s rich heritage for future generations!</p>
+        </div>
+    </section>
+
+    <!-- Contribute Form -->
+    <section class="contribute-form">
+        <h2>Share Your Story</h2>
+        <form>
+            <!-- Story Title -->
+            <label for="story-title">Story Title</label>
+            <input type="text" id="story-title" name="story-title" placeholder="Enter the title of your story" required>
+
+            <!-- Story Content -->
+            <label for="story-content">Story Content</label>
+            <textarea id="story-content" name="story-content" placeholder="Describe your story in detail" required></textarea>
+
+            <!-- Location Details -->
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" placeholder="Enter the state" required>
+
+            <label for="district">District</label>
+            <input type="text" id="district" name="district" placeholder="Enter the district" required>
+
+            <label for="village">Village</label>
+            <input type="text" id="village" name="village" placeholder="Enter the village (if applicable)">
+
+            <!-- Image Upload -->
+            <label for="images">Upload Images</label>
+            <input type="file" id="images" name="images" multiple accept="image/*">
+
+            <!-- Author Name -->
+            <label for="author-name">Author Name</label>
+            <input type="text" id="author-name" name="author-name" placeholder="Enter your name (optional)">
+
+            <!-- Contact Information -->
+            <label for="contact-info">Contact Information (Email or Phone)</label>
+            <input type="text" id="contact-info" name="contact-info" placeholder="Enter your email or phone number (optional)">
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="call-to-action">
+        <div class="cta-text">
+            <p>History is full of untold stories—want to see what others have shared? Dive into India's forgotten past!</p>
+        </div>
+        <div class="cta-buttons">
+            <button onclick="window.location.href='index.html'">Explore More</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <img src="assets/social-icons/facebook.png" alt="Facebook">
+            <img src="assets/social-icons/instagram.png" alt="Instagram">
+            <img src="assets/social-icons/twitter.png" alt="Twitter">
+        </div>
+        <p>© 2025 Hidden Heritage. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts/navbar.js"></script>
+</body>
+</html>
